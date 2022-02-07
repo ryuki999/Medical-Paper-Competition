@@ -3,7 +3,7 @@
 [SIGNATE医学論文自動仕分けコンテスト](https://signate.jp/competitions/471)で行われたコンテストで作成したモデル。
 
 ## 制作背景・目的
-論文のタイトルおよび抄録のテキストデータを用いて、システマティックレビューの対象となる文献か否か（2値）を判定するアルゴリズムを作成するコンテストが開催された。。
+論文のタイトルおよび抄録のテキストデータを用いて、システマティックレビューの対象となる文献か否か（2値）を判定するアルゴリズムを作成するコンテストが開催された。
 
 システマティック・レビューとは、ライフサイエンス、特に医学分野において浸透している研究方法で、特定の研究テーマに対する文献をくまなく調査し、各研究データのバイアスを評価しながら、体系的に同質の研究データを収集・解析する研究手法のことを指す。
 
@@ -62,12 +62,12 @@
 * 出来る限り再利用できるように機能ごとにクラスを分離してプログラムを作成した。今後のために依然として、改善の余地は残っているので、適宜修正しながら資産として残していきたい。
 
 ## 手順
-* `test.ipynb`をGoogleColabを立ち上げ後、コードを順に実行する。
+* GoogleColabで`test.ipynb`を立ち上げ後、コードを順に実行する。
 * なお、GoogleColabの無料環境用に設定パラメータを調整している。
 
 * 事前準備
-  * !pip install -q transformers
-  * `data/`以下にtrain.csv, test.csv, sample_submit.csvを置くhttps://signate.jp/competitions/471/data/2060
+  * SIGNATEで提供されているデータを用いるのでアカウント登録後、データをダウンロードする必要がある。https://signate.jp/competitions/471/data
+  * ダウンロード後、`data/`以下にtrain.csv, test.csv, sample_submit.csvを置く
 
 ## 参考文献・URL
 * 医学論文の自動仕分けチャレンジ | SIGNATE - Data Science Competition,https://signate.jp/competitions/471
